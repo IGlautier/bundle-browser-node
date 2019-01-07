@@ -1,0 +1,27 @@
+{
+  "name": "bundle-browser-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/example.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iglautier/bundle-browser-node.git"
+  },
+  "keywords": [],
+  "author": "iglautier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iglautier/bundle-browser-node/issues"
+  },
+  "homepage": "https://github.com/iglautier/bundle-browser-node#readme",
+  "devDependencies": {
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
